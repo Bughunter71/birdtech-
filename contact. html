@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - BirdTech</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    window.addEventListener("load", () => {
+      document.querySelector(".loader").style.display = "none";
+    });
+  </script>
+</head>
+<body>
+
+<div class="loader">
+  <div></div><div></div><div></div>
+</div>
+
+<header>
+  <img src="images/logo.png" alt="BirdTech Logo">
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="contact">
+  <h1>Contact Us</h1>
+  <a href="mailto:birdtech71@gmail.com">Email Us</a>
+  <a href="https://wa.me/923267832599">Chat on WhatsApp</a>
+</section>
+
+</body>
+</html>

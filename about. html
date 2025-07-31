@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BirdTech - Professional Services</title>
+  <title>About - BirdTech</title>
   <link rel="stylesheet" href="style.css">
   <script>
     window.addEventListener("load", () => {
@@ -27,27 +27,35 @@
 </header>
 
 <section class="hero">
-  <h1>Professional Services You Can Trust</h1>
-  <p>Graphic Design | Data Entry | Assignment Writing | Translation</p>
-  <button onclick="window.location.href='https://wa.me/923267832599'">Hire Us</button>
+  <h1>About BirdTech</h1>
+  <p>We combine creativity and accuracy to deliver exceptional services.</p>
 </section>
 
-<section class="services">
-  <div class="service-card" onclick="location.href='about.html#graphic'">
+<section id="graphic" class="services">
+  <div class="service-card">
     <h3>Graphic Design</h3>
-    <p>Logos, Banners, Social Media Designs</p>
+    <p>From logos to social media branding, we create visuals that leave a lasting impression.</p>
   </div>
-  <div class="service-card" onclick="location.href='about.html#data'">
+</section>
+
+<section id="data" class="services">
+  <div class="service-card">
     <h3>Data Entry</h3>
-    <p>Accurate and fast data management</p>
+    <p>Efficient, error-free, and fast data entry for businesses and individuals.</p>
   </div>
-  <div class="service-card" onclick="location.href='about.html#assignment'">
+</section>
+
+<section id="assignment" class="services">
+  <div class="service-card">
     <h3>Assignment Writing</h3>
-    <p>Research-based and well-formatted work</p>
+    <p>Research-backed academic writing tailored to your needs.</p>
   </div>
-  <div class="service-card" onclick="location.href='about.html#translation'">
+</section>
+
+<section id="translation" class="services">
+  <div class="service-card">
     <h3>Translation</h3>
-    <p>English ↔ Urdu professional translation</p>
+    <p>Fluent English ↔ Urdu translations with cultural accuracy.</p>
   </div>
 </section>
 
