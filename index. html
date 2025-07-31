@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BirdTech</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <img src="logo-placeholder.png" alt="BirdTech Logo" class="logo" />
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Welcome to BirdTech</h1>
+    <p>Smart solutions powered by AI and innovation.</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>BirdTech is a forward-thinking tech startup focused on creating intelligent digital experiences. From chatbots to smart tools, we build with purpose.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="service-box">
+      <h3>AI Chatbots</h3>
+      <p>Custom chatbots to automate and engage.</p>
+    </div>
+    <div class="service-box">
+      <h3>Web Development</h3>
+      <p>Modern websites built for performance and style.</p>
+    </div>
+    <div class="service-box">
+      <h3>Tech Consulting</h3>
+      <p>Expert advice to grow your digital presence.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Chatbase Chatbot Embed -->
+  <script src="https://www.chatbase.co/embed.min.js" chatbotId="YOUR_CHATBASE_ID" domain="www.birdtech.com" defer></script>
+<!-- Chatbase Chatbot Embed -->
+<script src="https://www.chatbase.co/embed.min.js" chatbotId="YOUR_CHATBASE_ID" domain="www.birdtech.com" defer></script>
+</body>
+</html>
